@@ -1,32 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
 body{
     text-align: center;
+    width: 50%;
+    margin:auto;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin-top: 60px;
+    font-size: 30px;
 }
-.btn{
+
+h3{
+    text-decoration: underline;
+}
+
+div{
+    width: 500px;
     height: 200px;
-    width: 200px;
-    border-radius: 20%;
-    border:10px solid black;
-    margin: 2.5rem;
-}    
-.btn-container{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    background-color: azure;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
 }
-.red{
-    background-color: #d95980;
+
+p{
+    font-size: 20px;
 }
-.yellow{
-    background-color: #f99b45;
+
+.btnn{
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;
 }
-.green{
-    background-color: #63aac0;
-}
-.purple{
-    background-color:#819ff9;
-}
-.flash{
-    background-color: white;
-}
-.userflash{
-    background-color: green;
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    body {
+        width: 80%; /* Adjusted width for smaller screens */
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    div {
+        width: 100%; /* Full width for smaller screens */
+        max-width: none; /* No max-width for smaller screens */
+    }
 }
